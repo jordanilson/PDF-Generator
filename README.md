@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# PDF GENERATION
+Objetivo do teste é gerar pdfs após a inserção do texto no input.
+Para o desenvolvimento foi utilizado a biblioteca React Pdfs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Dependêcias
+`npm install`- Para baixar as dependências.
 
-## Available Scripts
+`npm start` - Para executar a aplicação.
 
-In the project directory, you can run:
+## Modo Dark / Light
+A página home possuí a opção de alterar o tema de acordo com a prefêrencia do usuário, podendo ser dark ou light.
 
-### `npm start`
+### Modo Dark
+![Captura de tela de 2023-04-18 11-15-42](https://user-images.githubusercontent.com/75050074/232813839-c3aac730-f1bd-4380-a399-0ad679ca3435.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Modo light
+![Captura de tela de 2023-04-18 11-15-51](https://user-images.githubusercontent.com/75050074/232814172-0855e3d6-8646-4861-bbd9-feb433b4075e.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Download do PDF
+Como objetivo principal do teste  após a inserção do texto no campo do input o usuário poderá clica no butão de dowload. 
 
-### `npm test`
+[Gravação de tela de 18-04-2023 11:50:43.webm](https://user-images.githubusercontent.com/75050074/232815722-58a53c56-6e84-43a0-8c2e-e13bf4c6a797.webm)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
