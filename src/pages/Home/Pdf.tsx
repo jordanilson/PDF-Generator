@@ -3,15 +3,31 @@ import { SectionStyle } from "./style";
 import { ChangeEvent, useState } from "react";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 
+interface ConfigStyle {
+  flexDirectionStyle: string | any;
+  backgroundColorStyle: string;
+  marginStyle: number;
+  paddingStyle: number;
+  flexGrowStyle: number;
+}
+
+const obgConfigStyle: ConfigStyle = {
+  flexDirectionStyle: "row",
+  backgroundColorStyle: "#E4E4E4",
+  marginStyle: 10,
+  paddingStyle: 10,
+  flexGrowStyle: 1,
+};
+
 const styles = StyleSheet.create({
   page: {
-    flexDirection: "row",
-    backgroundColor: "#E4E4E4",
+    flexDirection: obgConfigStyle.flexDirectionStyle,
+    backgroundColor: obgConfigStyle.backgroundColorStyle,
   },
   section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1,
+    margin: obgConfigStyle.marginStyle,
+    padding: obgConfigStyle.paddingStyle,
+    flexGrow: obgConfigStyle.flexGrowStyle,
   },
 });
 
